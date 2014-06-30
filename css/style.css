@@ -1,0 +1,170 @@
+html
+{
+    background: url(../images/cloud.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+p
+{
+    margin: 0;
+    padding: 0;
+}
+
+#board
+{
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+.column-numbering
+{
+    display: inline-block;
+
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-left: -20%;
+}
+
+.column_a
+{
+    display: inline-block;
+
+    margin-top: 1%;
+    margin-right: -.5%;
+    margin-left: -1%;
+}
+
+.column_b
+{
+    display: inline-block;
+
+    margin-top: 1%;
+    margin-right: -.5%;
+}
+
+.column_c
+{
+    display: inline-block;
+
+    margin-top: 1%;
+    margin-right: -.5%;
+}
+
+.column_d
+{
+    display: inline-block;
+
+    margin-top: 1%;
+    margin-right: -.5%;
+}
+
+.column_e
+{
+    display: inline-block;
+
+    margin-top: 1%;
+    margin-right: -.5%;
+}
+
+.column_f
+{
+    display: inline-block;
+
+    margin-top: 1%;
+    margin-right: -.5%;
+}
+
+.column_g
+{
+    display: inline-block;
+
+    margin-top: 1%;
+    margin-right: -.5%;
+}
+
+.column_h
+{
+    display: inline-block;
+
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.white
+{
+    font-size: 90px;
+
+    width: 100px;
+    height: 100px;
+
+    background-color: #d8d8bf;
+    box-shadow: 3px 3px 3px #ffa500;
+    text-shadow: 3px 3px 3px #388e8e;
+}
+
+.black
+{
+    font-size: 90px;
+
+    width: 100px;
+    height: 100px;
+
+    background-color: #6b4226;
+    box-shadow: 3px 3px 3px #ffa500;
+    text-shadow: 3px 3px 3px #388e8e;
+}
+
+.lettering
+{
+    font-family: 'Asul', sans-serif;
+    font-size: 25px;
+
+    width: 100px;
+    height: 100px;
+
+    text-align: center;
+
+    color: #cd7f32;
+}
+
+.numbering
+{
+    font-family: 'Asul', sans-serif;
+    font-size: 25px;
+
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+    text-align: center;
+
+    color: #cd7f32;
+}
+
+.numbering-hidden
+{
+    font-family: 'Asul', sans-serif;
+    font-size: 25px;
+
+    visibility: hidden;
+
+    height: 20px;
+
+    text-align: center;
+
+    color: #cd7f32;
+}
